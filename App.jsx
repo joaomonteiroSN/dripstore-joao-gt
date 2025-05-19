@@ -1,6 +1,6 @@
 const App = () => {
     return ( 
-        <h1>MINHA PAGINA DA DRIP STORE - COMECÇO</h1>
+        <h1>Layout children</h1>
      );
 }
  

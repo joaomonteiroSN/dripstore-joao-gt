@@ -4,13 +4,13 @@ const Header = () => {
     return (
         <>
             <div>
-                <Logo />
+                <Logo color={true} />
                 <input type="search" value="" placeholder="Pesquisar produto..."/>
                 <a href="http://">Cadastre-se</a>
                 <button>Entrar</button>
             </div>
 
-            <ul className="flex text-[#1F1F1F]">
+            <ul className="flex">
                 <li>Home</li>
                 <li>Produtos</li>
                 <li>Categorias</li>

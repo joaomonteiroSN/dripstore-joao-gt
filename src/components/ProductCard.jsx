@@ -7,11 +7,11 @@ const ProductCard = ({ name, priceDiscount, price }) => {
                     <p>{name}</p>
                     {priceDiscount ?
                         <div>
-                            <span className="text-light line-through">Price</span> <span className="text-dark">Price Discount</span>
+                            <span className="text-light line-through">{price}</span> <span className="text-dark">Price Discount</span>
                         </div>
                         :
 
-                        <span className="text-dark">Price</span>}
+                        <span className="text-dark">{price}</span>}
                 </div>
             </div>
         </>

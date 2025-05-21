@@ -7,7 +7,10 @@ const App = () => {
         <>
             <div className="">
                 <Header />
-                <ProductCard name={'tenis rocheda'} price={100}/>
+                <div className='flex flex-wrap gap-2'>
+                    <ProductCard name={'tenis rocheda'} price={100} priceDiscount={true} />
+                    <ProductCard name={'tenis rocheda'} price={100} priceDiscount={true} />
+                </div>
                 <Footer />
             </div>
         </>

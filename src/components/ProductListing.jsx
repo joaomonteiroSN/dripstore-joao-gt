@@ -10,9 +10,11 @@ import ProductCard from "./ProductCard";
 const ProductListing = () => {
     return (
         <>
-            {products.map(product => (
-                <ProductCard name={product.name} price={product.price} />
-            ))}
+            <div className="flex flex-wrap gap-3 bg-light-3 justify-center">
+                {products.map(product => (
+                    <ProductCard name={product.name} price={product.price} priceDiscount={product.priceDiscount}/>
+                ))}
+            </div>
         </>
     );
 }

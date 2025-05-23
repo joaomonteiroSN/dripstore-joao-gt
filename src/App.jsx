@@ -48,10 +48,11 @@ const App = () => {
                         </div>
 
                     </div>
-
                 </Section>
-                <ProductListing className='flex flex-wrap gap-2'>
-                </ProductListing>
+                <Section title={"Produtos em alta"}>
+                    <ProductListing className='flex flex-wrap gap-2'>
+                    </ProductListing>
+                </Section>
                 <Footer />
             </div>
         </>

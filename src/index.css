@@ -19,3 +19,13 @@
     --color-light-gray-3: #F5F5F5;
     --color-white: #FFFFFF;
 }
+
+.collections {
+    border-radius: 0.25rem;
+    max-width: 338px;
+}
+
+.collections-2 {
+    text-align: center;
+    max-width: 104px;
+}

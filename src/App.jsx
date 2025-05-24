@@ -1,3 +1,5 @@
+import Dropdown from './components/DropDown';
+import Filters from './components/Filters';
 import Footer from './components/Footer'
 import Header from './components/Header'
 import ProductCard from './components/ProductCard';

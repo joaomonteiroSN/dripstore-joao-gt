@@ -1,7 +1,7 @@
 const Redirect = ({ mobile = false }) => {
     const baseClasses = mobile
-        ? 'flex flex-col gap-3 mt-6 md:hidden'
-        : 'hidden md:flex items-center gap-4';
+        ? "flex flex-col gap-3 mt-6 md:hidden"
+        : "hidden md:flex items-center gap-5";
 
     return (
         <div className={baseClasses}>

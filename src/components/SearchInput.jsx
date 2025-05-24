@@ -4,7 +4,7 @@ const SearchBar = () => {
     const [showMobileSearch, setShowMobileSearch] = useState(false);
 
     return (
-        <div className="w-full">
+        <div className="w-[600px]">
             {/* Ícone da lupa visível apenas no mobile */}
             <div className="flex justify-end">
 
@@ -19,7 +19,7 @@ const SearchBar = () => {
 
             {/* Input visível no desktop ou quando ativado no mobile */}
             <div
-                className={`w-full m-auto max-w-[600px] px-4 md:px-0 mt-2 md:mt-0 ${showMobileSearch ? 'block' : 'hidden'
+                className={`w-full m-auto px-4 md:px-0 mt-2 md:mt-0 ${showMobileSearch ? 'block' : 'hidden'
                     } md:block`}
             >
                 <div className="flex items-center  bg-gray-100 rounded-md px-3 py-2">

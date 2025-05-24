@@ -6,7 +6,7 @@ import SearchToggleInput from "./SearchInput";
 const Header = () => {
     return (
         <>
-            <div className="flex justify-between p-5">
+            <div className="flex justify-between p-5 bg-white">
                 <MobileMenu />
                 <Logo color={true} />
                 <div className="flex gap-4 max-w-32 items-center">

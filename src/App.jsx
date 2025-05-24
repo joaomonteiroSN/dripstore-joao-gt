@@ -7,7 +7,7 @@ import Section from './components/Section';
 const App = () => {
     return (
         <>
-            <div className="">
+            <div className="bg-light-3">
                 <Header />
                 <Section title="Colecoes em destaque" titleAlign="center">
                     <div className="flex flex-wrap gap-3 justify-center" >
@@ -16,7 +16,7 @@ const App = () => {
                         <img className="collections" src="../../public/collection-3.png" alt="" />
                     </div>
                 </Section>
-                <Section title="Colecoes em destaque">
+                <Section title="Colecoes em destaque" titleAlign="center">
                     <div className="overflow-x-auto whitespace-nowrap px-4 sm:px-0">
                         <div className="overflow-x-auto sm:overflow-x-visible whitespace-nowrap sm:whitespace-normal px-4 sm:px-0">
                             <div className="flex gap-4 justify-start sm:justify-center">
@@ -50,7 +50,7 @@ const App = () => {
                     </div>
                 </Section>
                 <Section title={"Produtos em alta"}>
-                    <ProductListing className='flex flex-wrap gap-2'>
+                    <ProductListing>
                     </ProductListing>
                 </Section>
                 <Footer />

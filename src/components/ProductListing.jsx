@@ -10,7 +10,7 @@ import ProductCard from "./ProductCard";
 const ProductListing = () => {
     return (
         <>
-            <div className="flex flex-wrap gap-3 bg-light-3 justify-center sm:grid grid-cols-4">
+            <div className="bg-light-3 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[9px] md:gap-[13px] lg:gap-[24px] place-items-center max-w-[1240px]">
                 {products.map(product => (
                     <ProductCard name={product.name} price={product.price} priceDiscount={product.priceDiscount}/>
                 ))}

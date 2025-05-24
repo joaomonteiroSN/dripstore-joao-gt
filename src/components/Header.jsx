@@ -10,8 +10,8 @@ import Redirect from "./Redirect";
 const Header = () => {
     return (
         <>
-            <div className="w-full bg-white flex justify-between">
-                <div className="xl:max-w-[1447px] xl:pl-[104px] xl:pr-[104px] md:gap-7 md:pl-[20px] md:pr-[20px]">
+            <div className="w-full bg-white mx-auto">
+                <div className="w-full xl:max-w-[1447px] mx-auto xl:px-[104px] md:px-[20px] md:gap-7">
                     <div className="flex pt-9 pb-5 items-center justify-between">
                         <MobileMenu />
                         <div className="flex sm:flex flex-col-reverse">

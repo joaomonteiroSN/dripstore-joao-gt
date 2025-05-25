@@ -7,14 +7,16 @@ import ProductListing from './components/ProductListing';
 import Section from './components/Section';
 import Gallery from './components/Gallery';
 import Layout from './pages/Layout';
+import HomePage from './pages/HomePage';
+import ProductListingPage from './pages/ProductListingPage';
 
 const App = () => {
 
-   
-
     return (
         <>
-            <Layout />
+            {/* <HomePage /> */}
+
+            <ProductListingPage></ProductListingPage>
         </>
     );
 }

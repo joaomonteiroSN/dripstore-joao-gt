@@ -10,12 +10,12 @@ const Dropdown = ({ onChange }) => {
     };
 
     return (
-        <div className="relative w-[308px] h-[60px]">
+        <div className="relative w-full max-w-[265px] sm:max-w-[308px] h-[60px]">
             {/* Select invisível, mas funcional */}
             <select
                 value={selected}
                 onChange={handleChange}
-                className="appearance-none w-full h-full border border-black rounded px-4 pr-10 text-transparent focus:outline-none"
+                className="appearance-none w-full h-full border border-light rounded px-4 pr-10 text-transparent focus:outline-none"
             >
                 <option value="mais relevantes">mais relevantes</option>
                 <option value="menor preço">menor preço</option>

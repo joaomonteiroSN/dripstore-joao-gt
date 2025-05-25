@@ -12,7 +12,7 @@ const Filters = () => {
             {/* Botão visível apenas no mobile */}
             <button
                 onClick={toggleMobileFilter}
-                className="md:hidden fixed bottom-6 right-6 bg-primary text-white px-4 py-2 rounded shadow-lg z-40"
+                className="md:hidden absolute top-0 right-0 bg-primary text-white px-4 py-2 rounded shadow-lg z-40 h-[60px]`````"
             >
                 <img src="../../public/filter-icon.png" alt="" />
             </button>

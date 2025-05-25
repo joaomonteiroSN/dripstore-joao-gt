@@ -6,7 +6,7 @@ const date = new Date().getFullYear();
 const Footer = () => {
     return (
         <>
-            <div className="bg-dark text-white p-5 xl:flex flex-col max-w-[1240px] m-auto">
+            <div className="bg-dark text-white xl:flex flex-col max-w-[1240px] m-auto">
                 <div className="xl:flex pt-10 pb-9">
                     <section>
                         <Logo color={false} />
@@ -20,8 +20,8 @@ const Footer = () => {
                     <section className="flex xl:gap-24 xl:pr-40 xl:pl-52">
                         {/* criar o componente informacao */}
                         <div>
-                            <h6 className="font-bold text-lg">Informação</h6>
-                            <ul>
+                            <h6 className="font-bold text-base pb-7">Informação</h6>
+                            <ul className="text-base">
                                 <li>Sobre Drip Store</li>
                                 <li>Segurança</li>
                                 <li>Wishlist</li>
@@ -31,7 +31,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <h6 className="font-bold">Informação</h6>
+                            <h6 className="font-bold text-base pb-7">Informação</h6>
                             <ul>
                                 <li>Camisetas</li>
                                 <li>Calças</li>
@@ -42,8 +42,8 @@ const Footer = () => {
                         </div>
                     </section>
                     <section>
-                        <h6 className="font-bold">Contato</h6>
-                        <p className="pt-3 pr-[48px] pb-[25px]">
+                        <h6 className="font-bold pb-7">Contato</h6>
+                        <p className="pr-[48px] pb-[25px]">
                             Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161
                         </p>
                         <span className="block pb-[40px]">(85) 3051-3411</span>

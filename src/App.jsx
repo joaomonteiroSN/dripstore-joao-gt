@@ -5,12 +5,30 @@ import Header from './components/Header'
 import ProductCard from './components/ProductCard';
 import ProductListing from './components/ProductListing';
 import Section from './components/Section';
+import Gallery from './components/Gallery';
 
 const App = () => {
+
+    const images = [
+        { src: "../../public/assets/home-slide-1.jpeg" },
+        { src: "../../public/assets/home-slide-2.jpeg" },
+        { src: "../../public/assets/home-slide-3.jpeg" },
+        { src: "../../public/assets/home-slide-4.jpeg" },
+        { src: "../../public/assets/home-slide-5.jpeg" },
+    ];
+
     return (
         <>
             <div className="bg-light-3">
                 <Header />
+                <div className="p-4 flex justify-center">
+                    <Gallery
+                        width="1239px"
+                        height="400px"
+                        radius="8px"
+                        images={images}
+                    />
+                </div>
                 <Section title="Colecoes em destaque" titleAlign="center">
                     <div className="flex flex-wrap gap-3 justify-center" >
                         <img className="collections" src="../../public/collection-1.png" alt="" />
@@ -55,7 +73,9 @@ const App = () => {
                     <ProductListing>
                     </ProductListing>
                 </Section>
-                <Footer />
+                <div className="bg-dark">
+                    <Footer />
+                </div>
             </div>
         </>
     );

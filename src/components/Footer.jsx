@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="xl:flex pt-10 pb-9">
                     <section>
                         <Logo color={false} />
-                        <p className="pt-5 pr-[48px] pb-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <p className="pt-5 pr-[48px] pb-[30px] leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                         <div className="flex gap-[35px]">
                             <img src="../../public/assets/facebook.svg" alt="facebook-logo"></img>
                             <img src="../../public/assets/instagram.svg" alt="instagram-logo"></img>
@@ -19,9 +19,9 @@ const Footer = () => {
                     </section>
                     <section className="flex xl:gap-24 xl:pr-40 xl:pl-52">
                         {/* criar o componente informacao */}
-                        <div>
+                        <div className="leading-[38px]">
                             <h6 className="font-bold text-base pb-7">Informação</h6>
-                            <ul className="text-base">
+                            <ul className="truncate whitespace-nowrap overflow-hidden max-w-[200px]">
                                 <li>Sobre Drip Store</li>
                                 <li>Segurança</li>
                                 <li>Wishlist</li>
@@ -30,9 +30,9 @@ const Footer = () => {
                                 <li>Meus Pedidos</li>
                             </ul>
                         </div>
-                        <div>
+                        <div className="leading-[38px]">
                             <h6 className="font-bold text-base pb-7">Informação</h6>
-                            <ul>
+                            <ul className="truncate whitespace-nowrap overflow-hidden max-w-[200px]">
                                 <li>Camisetas</li>
                                 <li>Calças</li>
                                 <li>Bonés</li>

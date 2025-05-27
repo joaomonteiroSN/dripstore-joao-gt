@@ -21,6 +21,7 @@ const BuyBox = ({
 
             {/* Estrelas e Avaliações */}
             <div className="flex items-center gap-2">
+                <img src="../../public/stars.png" alt="stars-rate" />
                 <span className="text-[14px] bg-warning font-bold text-white rounded-[4px] px-2 py-1 flex items-center gap-1">
                     {stars}
                     <img src={starIcon} alt="Estrela" className="w-4 h-4 fill-white stroke-white" />
@@ -45,14 +46,15 @@ const BuyBox = ({
             </div>
 
             {/* Descrição */}
+            <p className="text-[13px] text-light font-bold">Descricao do produto</p>
             <p className="text-[14px] text-dark-2 leading-relaxed">{description}</p>
 
             {/* Variações do Produto */}
             {children && <div>{children}</div>}
 
             {/* Botão Comprar */}
-            <button className="w-full bg-warning text-white text-[16px] py-3 rounded-lg hover:bg-primary transition">
-                Comprar
+            <button className="w-full bg-warning text-white text-[16px] font-bold py-3 rounded-lg hover:bg-primary transition">
+                COMPRAR
             </button>
         </div>
     );

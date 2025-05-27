@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
 /* Variáveis CSS no :root */
 :root {
     --color-primary: #C92071;
@@ -19,6 +23,7 @@
     --color-light-gray-3: #F5F5F5;
     --color-white: #FFFFFF;
 }
+
 
 .collections {
     border-radius: 0.25rem;

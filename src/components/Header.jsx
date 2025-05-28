@@ -29,6 +29,9 @@ const Header = () => {
                             </Routes>
                             <Logo className="w-[138px] md:w-auto h-auto" color={true} />
                         </div>
+                        <div className="hidden md:block max-w-[600px] w-full">
+                            <InputSearch  />
+                        </div>
                         {/* <SearchBar /> */}
                         <div className="flex gap-2 items-center md:gap-8">
                             <SearchButton onClick={() => setShowSearch(prev => !prev)} />
@@ -38,10 +41,10 @@ const Header = () => {
                     </div>
                     <div className="max-w-[315px] m-auto pb-7">
                         {
-                        showSearch && (
-                            <InputSearch />
-                        )
-                    }
+                            showSearch && (
+                                <InputSearch />
+                            )
+                        }
                     </div>
                     <DesktopMenu />
                 </div>

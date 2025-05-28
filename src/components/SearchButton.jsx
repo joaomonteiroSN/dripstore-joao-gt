@@ -6,7 +6,7 @@ function SearchButton({ onClick }) {
     return (
         <button
             onClick={onClick}
-            className="p-2 focus:outline-none"
+            className="p-2 focus:outline-none md:hidden"
             aria-label="Abrir campo de busca"
         >
             <img

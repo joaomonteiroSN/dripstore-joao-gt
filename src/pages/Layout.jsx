@@ -9,7 +9,7 @@ import Section from '../components/Section';
 import Gallery from '../components/Gallery';
 
 // Definindo o componente de layout
-const Layout = ({ children }) => {
+const Layout = ({ children, className }) => {
 
     return (
         <div className="bg-light-3">

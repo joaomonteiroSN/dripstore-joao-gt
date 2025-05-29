@@ -13,23 +13,30 @@ const ProductViewPage = () => {
     ];
     return (
         <>
-            <Layout>
-                <Gallery
-                    width="700px"
-                    height="570px"
-                    radius="4px"
-                    images={images}
-                    showThumbs
-                />
-                <BuyBox
-                    name={"Tênis Nike Revolution 6 Next Nature Masculino"}
-                    reference={"Casual | Nike | REF:38416711"}
-                    stars={4.7}
-                    rating={90}
-                    price={"219,00"}
-                    priceDiscount={"219,00"}
-                    description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."}
-                />
+            <Layout className="md:flex">
+                <div className="md:flex">
+                    <Gallery
+                        images={images}
+                        radius="4px"
+                        width="500px"
+                        height="272px"
+                        showThumbs
+                        className="pt-5 m-auto"
+                    />
+                    <BuyBox
+                        name={"Tênis Nike Revolution 6 Next Nature Masculino"}
+                        reference={"Casual | Nike | REF:38416711"}
+                        stars={4.7}
+                        rating={90}
+                        price={"219,00"}
+                        priceDiscount={"219,00"}
+                        description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."}
+                    >
+
+                        <ProductOptions options={["39", "40", "41", "42", "43"]} radius={4} shape={"square"} type={"text"} />
+                        <ProductOptions options={["#6FEEFF", "#C92071", "#5E5E5E", "#6D70B7"]} radius={4} shape={"circle"} type={"color"} />
+                    </BuyBox>
+                </div>
             </Layout>
         </>
     );

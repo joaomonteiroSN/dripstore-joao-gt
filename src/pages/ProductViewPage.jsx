@@ -14,14 +14,14 @@ const ProductViewPage = () => {
     return (
         <>
             <Layout className="md:flex">
-                <div className="md:flex">
+                <div className="m-auto px-5 pt-6 md:flex md:px-0 sm:gap-10 sm:align-top sm:max-w-[1245px] sm:mb-20">
                     <Gallery
                         images={images}
                         radius="4px"
                         width="500px"
                         height="272px"
                         showThumbs
-                        className="pt-5 m-auto"
+                        className="m-auto"
                     />
                     <BuyBox
                         name={"Tênis Nike Revolution 6 Next Nature Masculino"}

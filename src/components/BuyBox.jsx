@@ -12,7 +12,7 @@ const BuyBox = ({
     children,
 }) => {
     return (
-        <div className="w-full p-6 bg-white rounded shadow-md flex flex-col gap-4">
+        <div className="w-full bg-light-3 rounded flex flex-col gap-4">
             {/* Nome e Referência */}
             <div>
                 <h1 className="text-[32px] text-dark font-bold leading-tight">{name}</h1>
@@ -53,7 +53,7 @@ const BuyBox = ({
             {children && <div>{children}</div>}
 
             {/* Botão Comprar */}
-            <button className="w-full bg-warning text-white text-[16px] font-bold py-3 rounded-lg hover:bg-primary transition">
+            <button className="w-full bg-warning mt-12 mb-20 text-white text-[16px] font-bold py-3 rounded-lg hover:bg-primary transition sm:max-w-[220px] sm:m-0">
                 COMPRAR
             </button>
         </div>

@@ -2,6 +2,7 @@ import BuyBox from "../components/BuyBox";
 import Gallery from "../components/Gallery";
 import ProductOptions from "../components/ProductOptions";
 import Layout from "./Layout";
+import Breadcrumbs from "../components/BreadCrumbs";
 
 const ProductViewPage = () => {
     const images = [
@@ -14,6 +15,10 @@ const ProductViewPage = () => {
     return (
         <>
             <Layout className="md:flex">
+                <Breadcrumbs
+                    path={['Home', 'Produtos', 'Tênis', 'Nike']}
+                    current="Tênis Nike Revolution 6 Next Nature Masculino"
+                />
                 <div className="m-auto px-5 pt-6 md:flex md:px-0 sm:gap-10 sm:align-top sm:max-w-[1245px] sm:mb-20">
                     <Gallery
                         images={images}

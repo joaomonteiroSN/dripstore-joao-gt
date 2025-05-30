@@ -12,14 +12,14 @@ const Filters = () => {
             {/* Botão visível apenas no mobile */}
             <button
                 onClick={toggleMobileFilter}
-                className="md:hidden absolute top-0 right-0 bg-primary text-white px-4 py-2 rounded shadow-lg z-40 h-[60px]`````"
+                className="md:hidden absolute top-0 right-0 bg-primary text-white px-4 py-2 rounded shadow-lg z-40 h-[60px]"
             >
                 <img src="../../public/filter-icon.png" alt="" />
             </button>
 
             {/* Filtros - mobile e desktop */}
             <aside
-                className={`bg-white w-[308px] p-4 border-r border-light-gray-2 md:static fixed top-0 left-0 h-full z-50 overflow-y-auto transition-transform duration-300 ${isOpen ? "translate-x-0" : "-translate-x-full"
+                className={`bg-white w-[308px] p-4 border-r border-light-gray-2 md:static fixed top-0 left-0 h-[720px] z-50 overflow-y-auto transition-transform duration-300 ${isOpen ? "translate-x-0" : "-translate-x-full"
                     } md:translate-x-0 md:block`}
             >
                 {/* Cabeçalho */}

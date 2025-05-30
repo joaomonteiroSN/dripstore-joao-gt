@@ -17,7 +17,7 @@ const App = () => {
         <>
             {/* <HomePage /> */}
 
-            <ProductViewPage></ProductViewPage>
+            <ProductListingPage></ProductListingPage>
         </>
     );
 }

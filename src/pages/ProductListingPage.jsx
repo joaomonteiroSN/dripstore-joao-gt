@@ -15,7 +15,7 @@ const ProductListingPage = () => {
                         <Filters></Filters>
                     </div>
                     <Section>
-                        <ProductListing></ProductListing>
+                        <ProductListing mobileShowItens={8} desktopShowitens={15}></ProductListing>
                     </Section>
                 </div>
             </Layout>

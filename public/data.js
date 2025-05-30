@@ -1,42 +1,42 @@
 const products = [
     {
-        name: "Nome do produto 1",
+        name: "K-Swiss V8 - Masculino",
         image: "https://url.imagem/do/produto1.png",
         price: 200,
         priceDiscount: 149.9
     },
     {
-        name: "Nome do produto 2",
+        name: "K-Swiss V8 - Masculino",
         image: "https://url.imagem/do/produto2.png",
         price: 49.9
     },
     {
-        name: "Nome do produto 3",
+        name: "K-Swiss V8 - Masculino",
         image: "https://url.imagem/do/produto2.png",
         price: 49.9
     },
     {
-        name: "Nome do produto 4",
+        name: "K-Swiss V8 - Masculino",
         image: "https://url.imagem/do/produto2.png",
         price: 49.9
     },
     {
-        name: "Nome do produto 5",
+        name: "K-Swiss V8 - Masculino",
         image: "https://url.imagem/do/produto2.png",
         price: 49.9
     },
     {
-        name: "Nome do produto 6",
+        name: "K-Swiss V8 - Masculino",
         image: "https://url.imagem/do/produto2.png",
         price: 49.9
     },
     {
-        name: "Nome do produto 7",
+        name: "K-Swiss V8 - Masculino",
         image: "https://url.imagem/do/produto2.png",
         price: 49.9
     },
     {
-        name: "Nome do produto 8",
+        name: "K-Swiss V8 - Masculino",
         image: "https://url.imagem/do/produto2.png",
         price: 49.9
     },

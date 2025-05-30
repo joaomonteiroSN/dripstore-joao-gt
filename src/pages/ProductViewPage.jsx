@@ -3,6 +3,8 @@ import Gallery from "../components/Gallery";
 import ProductOptions from "../components/ProductOptions";
 import Layout from "./Layout";
 import Breadcrumbs from "../components/BreadCrumbs";
+import ProductListing from "../components/ProductListing";
+import Section from "../components/Section";
 
 const ProductViewPage = () => {
     const images = [
@@ -42,6 +44,9 @@ const ProductViewPage = () => {
                         <ProductOptions options={["#6FEEFF", "#C92071", "#5E5E5E", "#6D70B7"]} radius={4} shape={"circle"} type={"color"} />
                     </BuyBox>
                 </div>
+                <Section title={"Produtos relacionados"} className="mb-20 sm:mb-32">
+                    <ProductListing />
+                </Section>
             </Layout>
         </>
     );

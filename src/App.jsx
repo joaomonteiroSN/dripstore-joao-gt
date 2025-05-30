@@ -16,8 +16,7 @@ const App = () => {
     return (
         <>
             {/* <HomePage /> */}
-
-            <ProductListingPage></ProductListingPage>
+            <HomePage></HomePage>
         </>
     );
 }

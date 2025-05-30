@@ -24,7 +24,7 @@ const ProductListing = ({mobileShowItens, desktopShowitens, maxShowItens = 15}) 
     }, []);
 
     return (
-        <div className="bg-light-3 grid grid-cols-2 md:grid-cols-3 gap-[9px] md:gap-[13px] lg:gap-[24px] place-items-center max-w-[1240px] mx-auto">
+        <div className="bg-light-3 grid grid-cols-2 md:grid-cols-4 gap-[9px] md:gap-[13px] lg:gap-[24px] place-items-center max-w-[1240px] mx-auto">
             {products.slice(0, visibleCount).map((product, index) => (
                 <ProductCard
                     key={index}

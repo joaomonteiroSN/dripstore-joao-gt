@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import products from "../../public/data";
 import ProductCard from "./ProductCard";
 
-const ProductListing = () => {
+const ProductListing = ({mobileShowItens, desktopShowitens, maxShowItens = 15}) => {
     const [visibleCount, setVisibleCount] = useState(products.length); // mostra tudo inicialmente
 
     useEffect(() => {
@@ -10,11 +10,11 @@ const ProductListing = () => {
             const width = window.innerWidth;
 
             if (width < 640) {
-                setVisibleCount(2); // 2 colunas × 1 linha
+                setVisibleCount(mobileShowItens); // 2 colunas × 1 linha
             } else if (width < 1024) {
-                setVisibleCount(6); // 3 colunas × 2 linhas
+                setVisibleCount(desktopShowitens); // 3 colunas × 2 linhas
             } else {
-                setVisibleCount(8); // 4 colunas × 2 linhas
+                setVisibleCount(maxShowItens); // 4 colunas × 2 linhas
             }
         };
 

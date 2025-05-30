@@ -45,7 +45,7 @@ const ProductViewPage = () => {
                     </BuyBox>
                 </div>
                 <Section title={"Produtos relacionados"} className="mb-20 sm:mb-32">
-                    <ProductListing />
+                    <ProductListing mobileShowItens={2} desktopShowitens={4} maxShowItens={4}/>
                 </Section>
             </Layout>
         </>

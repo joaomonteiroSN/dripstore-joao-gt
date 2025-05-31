@@ -24,6 +24,15 @@
     --color-white: #FFFFFF;
 }
 
+* {
+    font-family: "Inter", sans-serif;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 50px;
+}
+
 
 .collections {
     border-radius: 0.25rem;

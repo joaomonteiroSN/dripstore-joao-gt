@@ -6,19 +6,19 @@ const date = new Date().getFullYear();
 const Footer = () => {
     return (
         <>
-            <div className="bg-dark">
+            <div className="bg-dark px-5">
                 <div className="bg-dark text-white xl:flex flex-col max-w-[1240px] m-auto">
                     <div className="xl:flex pt-10 pb-9">
                         <section>
                             <Logo color={false} />
-                            <p className="pt-5 pr-[48px] pb-[30px] leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            <div className="flex gap-[35px]">
+                            <p className="pt-5 pr-[48px] leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <div className="flex gap-[35px] my-8">
                                 <img src="../../public/assets/facebook.svg" alt="facebook-logo"></img>
                                 <img src="../../public/assets/instagram.svg" alt="instagram-logo"></img>
                                 <img src="../../public/assets/twitter.svg" alt="twitter-logo"></img>
                             </div>
                         </section>
-                        <section className="flex xl:gap-24 xl:pr-40 xl:pl-52">
+                        <section className="flex gap-8 xl:gap-24 xl:pr-40 xl:pl-52">
                             {/* criar o componente informacao */}
                             <div className="leading-[38px]">
                                 <h6 className="font-bold text-base pb-7">Informação</h6>

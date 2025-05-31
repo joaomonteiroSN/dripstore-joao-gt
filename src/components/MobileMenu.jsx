@@ -35,9 +35,9 @@ const MobileMenu = () => {
                             key={item.path}
                             to={item.path}
                             className={({ isActive }) =>
-                                `block py-1 border-l-4 pl-2 text-sm font-medium ${isActive
-                                    ? 'border-pink-600 text-pink-600 font-semibold'
-                                    : 'border-transparent text-gray-700 hover:text-pink-600'
+                                `block py-1 border-b-4 pl-2 text-sm font-medium ${isActive
+                                    ? 'border-primary text-primary font-semibold'
+                                    : 'border-transparent text-gray-700 hover:text-primary'
                                 }`
                             }
                             onClick={() => setIsOpen(false)} // fecha menu ao clicar
@@ -46,7 +46,7 @@ const MobileMenu = () => {
                         </NavLink>
                     ))}
                 </nav>
-            <Redirect mobile/>
+            <Redirect className="mx-8" mobile/>
             </div>
 
 

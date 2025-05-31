@@ -28,14 +28,14 @@ const HomePage = () => {
                         images={images}
                     />
                 </div>
-                <Section title="Colecoes em destaque" titleAlign="center" className="mt-10">
+                <Section title="Coleções em destaque" titleAlign="left" className="mt-10">
                     <div className="flex flex-wrap gap-3 justify-center" >
                         <img className="collections" src="../../public/collection-1.png" alt="" />
                         <img className="collections" src="../../public/collection-2.png" alt="" />
                         <img className="collections" src="../../public/collection-3.png" alt="" />
                     </div>
                 </Section>
-                <Section title="Colecoes em destaque" titleAlign="center" className="mt-[100px]">
+                <Section title="Coleções em destaque" titleAlign="center" className="mt-[100px]">
                     <div className="overflow-x-auto whitespace-nowrap px-4 sm:px-0">
                         <div className="overflow-x-auto sm:overflow-x-visible whitespace-nowrap sm:whitespace-normal px-4 sm:px-0">
                             <div className="flex gap-4 justify-start sm:justify-center">
@@ -67,11 +67,10 @@ const HomePage = () => {
                         </div>
                     </div>
                 </Section>
-                <Section title={"Produtos em alta"} className="mt-[123px] max-w-[1240px] pl-5">
+                <Section title={"Produtos em alta"} className="mt-[123px] mb-10 max-w-[1240px]">
                     <ProductListing mobileShowItens={2} desktopShowitens={8} maxShowItens={8}/>
                 </Section>
                 <HomeBanner />
-                <img src="../../public/assets/home-banner.svg" alt="" srcset="" />
             </Layout>
         </>
     );

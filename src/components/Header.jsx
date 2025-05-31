@@ -36,7 +36,7 @@ const Header = () => {
                         <div className="flex gap-2 items-center md:gap-8">
                             <SearchButton onClick={() => setShowSearch(prev => !prev)} />
                             <Redirect />
-                            <img className="h-6 max-w-6" src={miniCart}></img>
+                            <img className="h-6 max-w-6 mr-5" src={miniCart}></img>
                         </div>
                     </div>
                     <div className="max-w-[315px] m-auto pb-7">

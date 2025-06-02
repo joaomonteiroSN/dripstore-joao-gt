@@ -1,4 +1,4 @@
-import Layout from "./Layout";
+import Layout from "../components/Layout";
 import React from 'react';
 import ProductListing from '../components/ProductListing';
 import Section from '../components/Section';

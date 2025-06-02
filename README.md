@@ -2,7 +2,7 @@
 
 Esse é a minha entrega do projeto final de Frontend proposto pelo curso Geração Tech 2.0.
 
-Meu projeto seguiu a inspiração visual do Figma, que pode ser acessado por aqui:
+Meu projeto seguiu a inspiração visual fornecida no Figma, que pode ser acessado por aqui:
 
 - depois colocar link
 

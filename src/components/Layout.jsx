@@ -1,12 +1,6 @@
 import React from 'react';
-import Dropdown from '../components/DropDown';
-import Filters from '../components/Filters';
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import ProductCard from '../components/ProductCard';
-import ProductListing from '../components/ProductListing';
-import Section from '../components/Section';
-import Gallery from '../components/Gallery';
+import Footer from './Footer'   
+import Header from './Header'
 
 // Definindo o componente de layout
 const Layout = ({ children, className }) => {

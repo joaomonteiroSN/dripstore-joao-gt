@@ -3,7 +3,7 @@ import FilterGroup from "../components/FilterGroup";
 import Filters from "../components/Filters";
 import ProductListing from "../components/ProductListing";
 import Section from "../components/Section";
-import Layout from "./Layout";
+import Layout from "../components/Layout";
 
 const ProductListingPage = () => {
     return (

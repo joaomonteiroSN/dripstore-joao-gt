@@ -1,6 +1,6 @@
 // src/components/SearchToggleButton.jsx
 import React from 'react';
-import searchIcon from "../../public/assets/search.svg"
+import searchIcon from "/assets/search.svg"
 
 function SearchButton({ onClick }) {
     return (

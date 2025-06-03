@@ -1,7 +1,7 @@
 // src/components/Gallery.jsx
 import React, { useState } from 'react';
-import arrowLeft from '../../public/assets/icons/arrow-left.svg';
-import arrowRight from '../../public/assets/icons/arrow-right.svg';
+import arrowLeft from '/assets/icons/arrow-left.svg';
+import arrowRight from '/assets/icons/arrow-right.svg';
 
 const Gallery = ({
     className = '',

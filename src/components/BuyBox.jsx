@@ -1,4 +1,4 @@
-import starIcon from "../../public/assets/star-icon.svg";
+import starIcon from "/assets/star-icon.svg";
 import ProductOptions from "./ProductOptions";
 
 const BuyBox = ({

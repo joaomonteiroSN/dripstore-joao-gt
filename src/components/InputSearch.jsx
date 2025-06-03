@@ -1,5 +1,5 @@
 import React from 'react';
-import searchIcon from '../../public/assets/search.svg';
+import searchIcon from '/assets/search.svg';
 
 const InputSearch = () => {
     return (

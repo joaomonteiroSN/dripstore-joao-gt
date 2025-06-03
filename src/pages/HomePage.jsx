@@ -29,7 +29,7 @@ const HomePage = () => {
                     />
                 </div>
                 <Section title="Coleções em destaque" titleAlign="left" className="mt-10">
-                    <div className="flex flex-wrap gap-3 justify-center" >
+                    <div className="flex flex-wrap gap-3 justify-center lg:max-w-[1240px]" >
                         <img className="collections" src="../../public/collection-1.png" alt="" />
                         <img className="collections" src="../../public/collection-2.png" alt="" />
                         <img className="collections" src="../../public/collection-3.png" alt="" />

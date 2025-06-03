@@ -6,7 +6,7 @@ import { Route } from "react-router-dom";
 import Redirect from "./Redirect";
 import { useState } from "react";
 
-import miniCart from "../../public/assets/mini-cart.svg"
+import miniCart from "/assets/mini-cart.svg"
 import SearchButton from "./SearchButton";
 import InputSearch from "./InputSearch";
 

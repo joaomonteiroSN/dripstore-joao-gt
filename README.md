@@ -45,7 +45,7 @@ Também segui os requisisitos mínimos propostos no projeto, como pode ser confe
 - React
 - Vite
 - Tailwind
-- Github pages
+- Vercel
 
 ## :clipboard: Inicializar e rodar o projeto localmente:
 
@@ -67,6 +67,6 @@ Também segui os requisisitos mínimos propostos no projeto, como pode ser confe
 
 ## :rocket: Deploy
 
-Para o deploy utilizei o Github Pages, você pode conferir o resultado aqui:
+Para o deploy utilizei o Vercel, você pode conferir o resultado aqui:
 
-[Drip Store feito com :blue_heart: por João Monteiro](https://joaomonteirosn.github.io/dripstore-joao-gt/)
+[Drip Store feito com :blue_heart: por João Monteiro](https://dripstore-joao-gt-git-main-joaomonteirosns-projects.vercel.app)

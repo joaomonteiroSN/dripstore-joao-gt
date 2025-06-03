@@ -3,10 +3,10 @@ import { NavLink } from 'react-router-dom';
 import Redirect from './Redirect';
 
 const menuItems = [
-    { label: 'Home', path: '/' },
-    { label: 'Produtos', path: '/produtos' },
-    { label: 'Categorias', path: '/categorias' },
-    { label: 'Meus Pedidos', path: '/meus-pedidos' },
+    { option: 'Home', path: '/' },
+    { option: 'Produtos', path: '/produtos' },
+    { option: 'Categorias', path: '/categorias' }, // não funcional
+    { option: 'Meus Pedidos', path: '/meus-pedidos' }, // não funcional
 ];
 
 const MobileMenu = () => {
@@ -29,7 +29,7 @@ const MobileMenu = () => {
                     }`}
             >
                 <nav className="p-4 space-y-2">
-                    <p className="text-sm font-bold text-gray-500">Páginas</p>
+                    <p className="text-sm font-bold text-dark">Páginas</p>
                     {menuItems.map((item) => (
                         <NavLink
                             key={item.path}
@@ -37,12 +37,12 @@ const MobileMenu = () => {
                             className={({ isActive }) =>
                                 `block py-1 border-b-4 pl-2 text-sm font-medium ${isActive
                                     ? 'border-primary text-primary font-semibold'
-                                    : 'border-transparent text-gray-700 hover:text-primary'
+                                    : 'border-transparent text-dark-2 hover:text-primary'
                                 }`
                             }
                             onClick={() => setIsOpen(false)} // fecha menu ao clicar
                         >
-                            {item.label}
+                            {item.option}
                         </NavLink>
                     ))}
                 </nav>

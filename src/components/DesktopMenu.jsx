@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 const menuItems = [
     { option: 'Home', path: '/' },
     { option: 'Produtos', path: '/produtos' },
-    { option: 'Categorias', path: '/categorias' },
-    { option: 'Meus Pedidos', path: '/meus-pedidos' },
+    { option: 'Categorias', path: '/categorias' }, // não funcional
+    { option: 'Meus Pedidos', path: '/meus-pedidos' }, // não funcional
 ];
 
 const DesktopMenu = () => {

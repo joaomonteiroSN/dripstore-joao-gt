@@ -1,5 +1,4 @@
 import Dropdown from "../components/DropDown";
-import FilterGroup from "../components/FilterGroup";
 import Filters from "../components/Filters";
 import ProductListing from "../components/ProductListing";
 import Section from "../components/Section";

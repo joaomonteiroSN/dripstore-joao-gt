@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import products from "../../public/data";
 import ProductCard from "./ProductCard";
 
-const ProductListing = ({mobileShowItens, desktopShowitens, maxShowItens = 15}) => {
+const ProductListing = ({ mobileShowItens, desktopShowitens, maxShowItens = 15 }) => {
     const [visibleCount, setVisibleCount] = useState(products.length); // mostra tudo inicialmente
 
     useEffect(() => {
@@ -23,15 +24,18 @@ const ProductListing = ({mobileShowItens, desktopShowitens, maxShowItens = 15}) 
         return () => window.removeEventListener("resize", updateVisibleCount);
     }, []);
 
+    //Rota para ProductListingPage é global para todo os itens que são renderizados
     return (
         <div className="bg-light-3 grid grid-cols-2 md:grid-cols-4 gap-[9px] md:gap-[13px] lg:gap-[24px] place-items-center max-w-[1240px] mx-auto">
             {products.slice(0, visibleCount).map((product, index) => (
-                <ProductCard
-                    key={index}
-                    name={product.name}
-                    price={product.price}
-                    priceDiscount={product.priceDiscount}
-                />
+                <Link to={`/produtos/${product.id}`}>
+                    <ProductCard
+                        key={index}
+                        name={product.name}
+                        price={product.price}
+                        priceDiscount={product.priceDiscount}
+                    />
+                </Link>
             ))}
         </div>
     );

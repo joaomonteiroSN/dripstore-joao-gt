@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import products from "/data";
+import products from "/public/data";
 import ProductCard from "./ProductCard";
 
 const ProductListing = ({ mobileShowItens, desktopShowitens, maxShowItens = 15 }) => {

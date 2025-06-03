@@ -8,11 +8,11 @@ import Section from "../components/Section";
 
 const ProductViewPage = () => {
     const images = [
-        { src: "../../public/assets/home-slide-1.jpeg" },
-        { src: "../../public/assets/home-slide-2.jpeg" },
-        { src: "../../public/assets/home-slide-3.jpeg" },
-        { src: "../../public/assets/home-slide-4.jpeg" },
-        { src: "../../public/assets/home-slide-5.jpeg" },
+        { src: "/assets/home-slide-1.jpeg" },
+        { src: "/assets/home-slide-2.jpeg" },
+        { src: "/assets/home-slide-3.jpeg" },
+        { src: "/assets/home-slide-4.jpeg" },
+        { src: "/assets/home-slide-5.jpeg" },
     ];
     return (
         <>

@@ -9,11 +9,11 @@ import HomeBanner from "../components/HomeBanner";
 const HomePage = () => {
 
     const images = [
-        { src: "../../public/assets/home-slide-1.jpeg" },
-        { src: "../../public/assets/home-slide-2.jpeg" },
-        { src: "../../public/assets/home-slide-3.jpeg" },
-        { src: "../../public/assets/home-slide-4.jpeg" },
-        { src: "../../public/assets/home-slide-5.jpeg" },
+        { src: "/assets/home-slide-1.jpeg" },
+        { src: "/assets/home-slide-2.jpeg" },
+        { src: "/assets/home-slide-3.jpeg" },
+        { src: "/assets/home-slide-4.jpeg" },
+        { src: "/assets/home-slide-5.jpeg" },
     ];
 
     return (
@@ -30,9 +30,9 @@ const HomePage = () => {
                 </div>
                 <Section title="Coleções em destaque" titleAlign="left" className="mt-10">
                     <div className="flex flex-wrap gap-3 justify-center lg:max-w-[1240px]" >
-                        <img className="collections" src="../../public/collection-1.png" alt="" />
-                        <img className="collections" src="../../public/collection-2.png" alt="" />
-                        <img className="collections" src="../../public/collection-3.png" alt="" />
+                        <img className="collections" src="/collection-1.png" alt="" />
+                        <img className="collections" src="/collection-2.png" alt="" />
+                        <img className="collections" src="/collection-3.png" alt="" />
                     </div>
                 </Section>
                 <Section title="Coleções em destaque" titleAlign="center" className="mt-[100px]">

@@ -6,13 +6,19 @@ import Breadcrumbs from "../components/BreadCrumbs";
 import ProductListing from "../components/ProductListing";
 import Section from "../components/Section";
 
+import slide1 from '/assets/home-slide-1.jpeg';
+import slide2 from '/assets/home-slide-2.jpeg';
+import slide3 from '/assets/home-slide-3.jpeg';
+import slide4 from '/assets/home-slide-4.jpeg';
+import slide5 from '/assets/home-slide-5.jpeg';
+
 const ProductViewPage = () => {
     const images = [
-        { src: "/assets/home-slide-1.jpeg" },
-        { src: "/assets/home-slide-2.jpeg" },
-        { src: "/assets/home-slide-3.jpeg" },
-        { src: "/assets/home-slide-4.jpeg" },
-        { src: "/assets/home-slide-5.jpeg" },
+        { src: slide1 },
+        { src: slide2 },
+        { src: slide3 },
+        { src: slide4 },
+        { src: slide5 },
     ];
     return (
         <>
@@ -45,7 +51,7 @@ const ProductViewPage = () => {
                     </BuyBox>
                 </div>
                 <Section title={"Produtos relacionados"} className="mb-20 sm:mb-32">
-                    <ProductListing mobileShowItens={2} desktopShowitens={4} maxShowItens={4}/>
+                    <ProductListing mobileShowItens={2} desktopShowitens={4} maxShowItens={4} />
                 </Section>
             </Layout>
         </>

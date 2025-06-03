@@ -1,5 +1,4 @@
 import starIcon from "/assets/star-icon.svg";
-import ProductOptions from "./ProductOptions";
 
 const BuyBox = ({
     name,
@@ -21,7 +20,7 @@ const BuyBox = ({
 
             {/* Estrelas e Avaliações */}
             <div className="flex items-center gap-2">
-                <img src="../../public/stars.png" alt="stars-rate" />
+                <img src="/stars.png" alt="stars-rate" />
                 <span className="text-[14px] bg-warning font-bold text-white rounded-[4px] px-2 py-1 flex items-center gap-1">
                     {stars}
                     <img src={starIcon} alt="Estrela" className="w-4 h-4 fill-white stroke-white" />

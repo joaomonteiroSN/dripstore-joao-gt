@@ -13,9 +13,9 @@ const Footer = () => {
                             <Logo color={false} />
                             <p className="pt-5 pr-[48px] leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                             <div className="flex gap-[35px] my-8">
-                                <img src="../../public/assets/facebook.svg" alt="facebook-logo"></img>
-                                <img src="../../public/assets/instagram.svg" alt="instagram-logo"></img>
-                                <img src="../../public/assets/twitter.svg" alt="twitter-logo"></img>
+                                <img src="/assets/facebook.svg" alt="facebook-logo"></img>
+                                <img src="/assets/instagram.svg" alt="instagram-logo"></img>
+                                <img src="/assets/twitter.svg" alt="twitter-logo"></img>
                             </div>
                         </section>
                         <section className="flex gap-8 xl:gap-24 xl:pr-40 xl:pl-52">

@@ -62,9 +62,9 @@ const Gallery = ({
                 </button>
             </div>
 
-            {/* Thumbnails */}
+            {/* Thumbs */}
             {showThumbs && (
-                <div className="flex flex-wrap justify-center gap-2 mt-4">
+                <div className="flex justify-center gap-2 mt-4">
                     {images.map((img, index) => (
                         <button
                             key={index}

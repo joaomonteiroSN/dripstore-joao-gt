@@ -14,7 +14,7 @@ const Filters = () => {
                 onClick={toggleMobileFilter}
                 className="md:hidden absolute top-0 right-0 bg-primary text-white px-4 py-2 rounded shadow-lg z-40 h-[60px]"
             >
-                <img src="../../public/filter-icon.png" alt="" />
+                <img src="/filter-icon.png" alt="ícone de filtro" />
             </button>
 
             {/* Filtros - mobile e desktop */}

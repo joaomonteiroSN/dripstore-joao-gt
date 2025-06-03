@@ -69,4 +69,4 @@ Também segui os requisisitos mínimos propostos no projeto, como pode ser confe
 
 Para o deploy utilizei o Github Pages, você pode conferir o resultado aqui:
 
-[Drip Store feito com :blue_heart: por João Monteiro]()
+[Drip Store feito com :blue_heart: por João Monteiro](https://joaomonteirosn.github.io/dripstore-joao-gt/)
